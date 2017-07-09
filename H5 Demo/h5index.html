@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>场景应用H5</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8;"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="zhufengxueyuan,961578998@qq.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <!--reset 默认样式表-->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!--swiper 插件封装好的css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--我们项目要用到的样式表-->
+    <link rel="stylesheet" href="css/h5_index.css">
+
+</head>
+<body>
+<!--arrow-->
+<div class="arrow"></div>
+
+<!--music-->
+<div class="music" id="musicBox"></div>
+<!--audio-->
+<audio id="musicAudio" src="http://file.ws.126.net/f2e/ent/ent_painting2016/files/sjsznh.mp3" loop preload="none"></audio><!--自动播放完 后无限播放-->
+<!--swiper-->
+<div class="swiper-container">
+    <!--图片内容-->
+    <div class="swiper-wrapper">
+        <!--第一屏-->
+        <div class="swiper-slide page01" id="page01">
+            <img src="images/page1-text1.png">
+            <img src="images/page1-text2.png">
+            <img src="images/page1-text3.png">
+            <img src="images/page1-text4.png">
+        </div>
+        <!--第二屏-->
+        <div class="swiper-slide page02" id="page02"><!--page02放第二屏背景图-->
+            <img src="images/page2-text1.png">
+            <img src="images/page2-text2.png">
+            <img src="images/page2-text3.png">
+            <img src="images/page2-text4.png">
+        </div>
+    </div>
+</div>
+<!--swiper 插件封装好的js文件-->
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<!--我们项目中要用到的js文件-->
+<script type="text/javascript" src="js/h5_index.js"></script>
+</body>
+</html>
